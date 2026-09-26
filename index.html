@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOU Lanxin | CV</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white; padding: 40px 20px; text-align: center;
+            border-radius: 0 0 10px 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); margin-bottom: 30px;
+        }
+        .profile-img {
+            width: 150px; height: 150px; border-radius: 50%; object-fit: cover;
+            border: 5px solid rgba(255, 255, 255, 0.3); margin-bottom: 20px;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .title { font-size: 1.2rem; font-weight: 300; margin-bottom: 12px; }
+        .contact-info { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 15px; }
+        .contact-info div { display: flex; align-items: center; gap: 8px; }
+        .contact-info a { color: white; text-decoration: none; }
+        .main-content { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        @media (max-width: 768px) { .main-content { grid-template-columns: 1fr; } h1 { font-size: 2rem; } }
+        .card {
+            background: white; border-radius: 10px; padding: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); margin-bottom: 30px;
+        }
+        .card h2 { color: #2c3e50; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #3498db; }
+        .experience-item, .education-item { margin-bottom: 20px; }
+        .experience-item:last-child, .education-item:last-child { margin-bottom: 0; }
+        .experience-item h3, .education-item h3 { color: #2c3e50; font-size: 1.05rem; }
+        .date { color: #7f8c8d; font-style: italic; margin-bottom: 6px; }
+        .item-list { margin: 8px 0 0 18px; }
+        .item-list li { margin-bottom: 4px; }
+        .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill { background: #e8f4fc; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; }
+        .doc-link {
+            display: block; margin-bottom: 12px; color: #2c3e50; text-decoration: none;
+            padding: 10px 12px; border: 1px solid #e8f4fc; border-radius: 8px; background: #fbfdff;
+        }
+        .doc-link:hover { background: #e8f4fc; }
+        .doc-link i { margin-right: 8px; color: #c0392b; }
+        .note { font-size: 0.85rem; color: #7f8c8d; margin-top: 8px; }
+        footer { text-align: center; margin-top: 20px; padding: 20px; color: #7f8c8d; border-top: 1px solid #eee; }
+        .gpa { font-weight: 600; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="image.png" alt="ZOU Lanxin" class="profile-img">
+            <h1>ZOU Lanxin</h1>
+            <p class="title">BSc (Hons) in Data Science &amp; Analytics · Minor in Computer Science</p>
+            <p>The Hong Kong Polytechnic University</p>
+            <div class="contact-info">
+                <div><i class="fas fa-envelope"></i> <a href="mailto:23097165d@connect.polyu.hk">23097165d@connect.polyu.hk</a></div>
+                <div><i class="fas fa-phone"></i> +1 519 500 4830</div>
+                <div><i class="fas fa-map-marker-alt"></i> Buffalo, NY / Hong Kong</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="left-column">
+                <div class="card">
+                    <h2><i class="fas fa-user"></i> About Me</h2>
+                    <p>Interdisciplinary background in data science, computer science, mathematics, and biology. Strong interest in pure mathematics, modeling, and using quantitative tools in applied problems.</p>
+                </div>
+
+                <div class="card">
+                    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <div class="education-item">
+                        <h3>The Hong Kong Polytechnic University</h3>
+                        <p class="date">2023 – Present</p>
+                        <p>BSc (Hons) in Data Science &amp; Analytics</p>
+                        <p>Minor in Computer Science</p>
+                        <p class="gpa">CGPA: 3.79/4.3 &nbsp; WGPA: 3.82/4.3</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>University at Buffalo (SUNY) — Exchange</h3>
+                        <p class="date">August 2026 – Present</p>
+                        <p>Topology, abstract algebra, numerical analysis, data mining, algorithm analysis and design.</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Cambridge Mathematics Summer Programme</h3>
+                        <p class="date">Jul – Aug 2025 · Girton College, Cambridge</p>
+                        <p>First Class (77%). Advanced linear algebra and machine learning.</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>SJTU Winter School</h3>
+                        <p class="date">Dec 2025 – Jan 2026 · Shanghai Jiao Tong University</p>
+                        <p>MA197 Algebra and Number Theory: A (4.0/4.0)</p>
+                        <p>MA420 Complex Variable: A (4.0/4.0)</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2><i class="fas fa-flask"></i> Research</h2>
+                    <div class="experience-item">
+                        <h3>Research Assistant — Dr. Daihai He</h3>
+                        <p class="date">Sep 2025 – Present · The Hong Kong Polytechnic University</p>
+                        <p>Infectious-disease data modeling and a prediction website.</p>
+                        <p class="note">Paper: A web-based predictor for SARS-CoV-2 neutralizing antibody escape from genome sequences — under review.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Research Assistant — Dr. Roberto Guglielmi</h3>
+                        <p class="date">May 2026 – Present · University of Waterloo</p>
+                        <p>ODE, control theory, safety proof, and numerical simulation.</p>
+                        <p class="note">Paper: Control Barrier Function of Host–Parasitoid Dynamics in Sugarcane Borer Biological Management — in revision.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2><i class="fas fa-briefcase"></i> Experience</h2>
+                    <div class="experience-item">
+                        <h3>Internship — Hunan Leiyang Rural Commercial Bank</h3>
+                        <p class="date">Jun – Aug 2024 · Hunan, China</p>
+                        <p>Analyzed and processed loan data with Excel and Python; supported credit-related decision making.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Project Leader — Predator–Prey Model Visualization</h3>
+                        <p class="date">Semester 1, 2024/2025</p>
+                        <p>Led a data analytics project using differential equations and animated visualization.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Co-creator — Online Store Website</h3>
+                        <p class="date">Semester 2, 2024/2025</p>
+                        <p>Front-end HTML/JavaScript and back-end PHP for search, cart, and payment simulation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="card">
+                    <h2><i class="fas fa-award"></i> Scholarships &amp; Awards</h2>
+                    <div class="experience-item">
+                        <h3>National Biology Olympiad — Silver Medal</h3>
+                        <p class="date">2022 · Taiyuan, China</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>First Class, Cambridge Mathematics Summer Programme</h3>
+                        <p class="date">2025</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>HKSAR Government Scholarship Fund — Talent Development Scholarship</h3>
+                        <p class="date">2023–2024</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Student Support Scholarship</h3>
+                        <p class="date">2024–2025</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>HKSAR Government Scholarship Fund — Reaching Out Award</h3>
+                        <p class="date">2025/2026</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>GEO Scholarship for Student Exchange</h3>
+                        <p class="date">Semester 1, 2026/2027</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2><i class="fas fa-star"></i> Skills</h2>
+                    <div class="skills">
+                        <span class="skill">Python</span>
+                        <span class="skill">R</span>
+                        <span class="skill">C++</span>
+                        <span class="skill">Java</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">HTML</span>
+                        <span class="skill">MATLAB</span>
+                        <span class="skill">MySQL</span>
+                        <span class="skill">Excel</span>
+                        <span class="skill">Anaconda</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2><i class="fas fa-language"></i> Languages</h2>
+                    <p>Chinese (Native; Putonghua Proficiency Test Grade A, Level 2)</p>
+                    <p>English (Professional Proficiency)</p>
+                </div>
+
+                <div class="card">
+                    <h2><i class="fas fa-paperclip"></i> Documentary Evidence</h2>
+                    <a href="Biological%20Olympiad.pdf" class="doc-link"><i class="far fa-file-pdf"></i> Biological Olympiad Certificate</a>
+                    <a href="Cambridge.pdf" class="doc-link"><i class="far fa-file-pdf"></i> Cambridge Qualification</a>
+                    <a href="eTranscript.pdf" class="doc-link"><i class="far fa-file-pdf"></i> Co-curricular eTranscript (updated Sep 2026)</a>
+                    <a href="ROA.pdf" class="doc-link"><i class="far fa-file-pdf"></i> Reaching Out Award (ROA)</a>
+                    <a href="Assessment%20Results.pdf" class="doc-link"><i class="far fa-file-pdf"></i> PolyU Assessment Results</a>
+                    <p class="note">Assessment Results from eStudent are for reference and are not an official transcript.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 ZOU Lanxin. All rights reserved.</p>
+            <p>Last updated: September 26, 2026</p>
+        </div>
+    </footer>
+</body>
+</html>
